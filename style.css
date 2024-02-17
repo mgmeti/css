@@ -1,4 +1,17 @@
 /* element seletion */
+/* A selector targets HTML to apply styles to content.  */
+
+/* h1
+a:link
+.manythings
+#onething
+*
+.box p
+.box p:first-child
+h1, h2, .intro 
+*/
+
+
 h1 {
     color: red;
 }
