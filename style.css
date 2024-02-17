@@ -87,3 +87,11 @@ body h1+p .special {
     background-color: rebeccapurple;
     color: white;
 }
+
+.box_rotate {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+}
