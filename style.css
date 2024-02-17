@@ -1,0 +1,47 @@
+/* element seletion */
+h1 {
+    color: red;
+}
+
+p {
+    color: rgb(7, 219, 35);
+}
+
+li {
+    list-style-type: square;
+}
+
+/* descedent combinator */
+li em {
+    color: rebeccapurple;
+}
+
+/* class selction */
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/* + (an next-sibling combinator) between the selectors. */
+h1+p {
+    font-size: 200%;
+}
+
+/* the ability to style things based on their state. */
+a:link {
+    color: rgb(192, 9, 39);
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body h1+p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
