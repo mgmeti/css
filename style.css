@@ -11,7 +11,10 @@ a:link
 h1, h2, .intro 
 */
 
-
+/* CSS declarations are found within CSS Declaration Blocks.
+{
+    property:value
+} */
 h1 {
     color: red;
 }
